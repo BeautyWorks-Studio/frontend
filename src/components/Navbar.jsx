@@ -24,6 +24,16 @@ const Navbar = () => {
             <hr className='w-2/4 border-none-h-[1.5px] bg-gray-700'/>
           </NavLink>
         </ul>
+        <div className = 'flex items-center gap-6'>
+          <img src={assets.search_icon} classname ='w-5 cursor-pointer' alt="" />
+
+          <div className = 'group relative'>
+            <img src={assets.profile_icon} className='w-5 cursor-pointer' alt="" />
+          </div>
+
+
+
+        </div>
     </div>
   )
 }
