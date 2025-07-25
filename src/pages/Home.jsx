@@ -23,7 +23,7 @@ export default function Home() {
 
         <p className="text-md md:text-lg text-gray-300 leading-relaxed">
           Discover the power of self-care, confidence, and natural beauty. 
-          At <strong>[Your Beauty Shop Name]</strong>, we believe every woman deserves to feel radiant and empowered — every single day.
+          At ForeverBeauty Shop, we believe every woman deserves to feel radiant and empowered — every single day.
           From glowing skin to nourishing products, we’re here to help you embrace your most beautiful self.
         </p>
 
