@@ -43,7 +43,7 @@ export default function CartDrawer({ isOpen, onClose }) {
       <div className="p-4 border-t space-y-3">
         <div className="flex items-center justify-between font-semibold">
           <span>Total:</span>
-          <span>${total}</span>
+          <span>Ksh.{total}</span>
         </div>
         <a
           href="/checkout"
