@@ -18,7 +18,7 @@ const BestSeller = () => {
       <div className='text-center text-3xl py-8'>
         <Title text1={'BEST'} text2={'SELLERS'}/>
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+        At Forever, we believe beauty is more than just appearance — it's how you feel. Our mission is to provide personalized beauty services in a warm, professional environment. Using only high-quality, skin-friendly products, our trained specialists are committed to helping you look and feel your best, every day.
         </p>
       </div>
 

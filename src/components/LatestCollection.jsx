@@ -17,8 +17,7 @@ const LatestCollection = () => {
       <div className='text-center py-8 text-3xl'>
           <Title text1={'LATEST'} text2={'COLLECTIONS'} />
           <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
-          </p>
+          From rejuvenating facials to expert nail care and makeup artistry, we offer a full range of services designed to enhance your natural features. Whether you're preparing for a special event or just treating yourself to some well-deserved self-care, our treatments are tailored to your unique beauty needs.          </p>
       </div>
 
       {/* Rendering Products */}
