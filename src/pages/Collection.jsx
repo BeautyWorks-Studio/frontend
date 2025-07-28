@@ -97,7 +97,7 @@ const Collection = () => {
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2'><input className='w-3' value={"Men"} onChange={toggleCategory} type="checkbox" /> Men </p>
             <p className='flex gap-2'><input className='w-3' value={"Women"} onChange={toggleCategory} type="checkbox" /> Women </p>
-            <p className='flex gap-2'><input className='w-3' value={"Kids"} onChange={toggleCategory} type="checkbox" /> Kids </p>
+            {/* <p className='flex gap-2'><input className='w-3' value={"Kids"} onChange={toggleCategory} type="checkbox" /> Kids </p> */}
           </div>
         </div>
 
@@ -105,9 +105,9 @@ const Collection = () => {
         <div className={`border border-gray-300 pl-5 py-3 my-5 ${showFilter ? '' : 'hidden'} sm:block`}>
           <p className='mb-3 text-sm font-medium'>TYPE</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
-            <p className='flex gap-2'><input className='w-3' value={"Topwear"} onChange={toggleSubCategory} type="checkbox" /> Topwear </p>
-            <p className='flex gap-2'><input className='w-3' value={"Bottomwear"} onChange={toggleSubCategory} type="checkbox" /> Bottomwear </p>
-            <p className='flex gap-2'><input className='w-3' value={"Winterwear"} onChange={toggleSubCategory} type="checkbox" /> Winterwear </p>
+            <p className='flex gap-2'><input className='w-3' value={"Topwear"} onChange={toggleSubCategory} type="checkbox" /> FaceProduct</p>
+            <p className='flex gap-2'><input className='w-3' value={"Bottomwear"} onChange={toggleSubCategory} type="checkbox" /> BodyProduct </p>
+            <p className='flex gap-2'><input className='w-3' value={"Winterwear"} onChange={toggleSubCategory} type="checkbox" /> FootProduct </p>
           </div>
 
         </div>
