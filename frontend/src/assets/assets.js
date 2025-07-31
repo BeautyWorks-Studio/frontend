@@ -182,5 +182,67 @@ export const products = [
     bestseller: false
   },
 
-
+    {
+    _id: "sun001",
+    name: "SPF 50+ Mineral Sunscreen",
+    description: "Broad-spectrum mineral sunscreen suitable for all skin types. Non-greasy and water-resistant.",
+    price: 990,
+    image: [sunscreen1],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700011,
+    bestseller: true
+  },
+  {
+    _id: "sun002",
+    name: "Daily Glow Sunscreen SPF 30",
+    description: "Lightweight daily sunscreen with a subtle glow finish and no white cast.",
+    price: 890,
+    image: [sunscreen2],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700012,
+    bestseller: false
+  },
+  {
+    _id: "sun003",
+    name: "Ultra Light SPF 40 Gel",
+    description: "A refreshing gel formula that protects and hydrates oily skin without clogging pores.",
+    price: 850,
+    image: [sunscreen3],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700013,
+    bestseller: true
+  },
+  {
+    _id: "sun004",
+    name: "Tinted Sunscreen SPF 45",
+    description: "Combines sun protection and a light tint to even out skin tone naturally.",
+    price: 930,
+    image: [sunscreen4],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700014,
+    bestseller: false
+  },
+  {
+    _id: "sun005",
+    name: "Anti-Pollution SPF 50 Spray",
+    description: "Protects against UV rays and pollution damage with easy spray-on application.",
+    price: 1050,
+    image: [sunscreen5],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700015,
+    bestseller: true
+  }
 ]
+
+
+
