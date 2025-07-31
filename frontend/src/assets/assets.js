@@ -264,6 +264,54 @@ export const products = [
     bestseller: true
   },
   {
+  _id: "scrub001",
+  name: "Coffee Exfoliating Scrub",
+  description: "Energizing scrub with coffee grounds to smooth and awaken your skin.",
+  price: 650,
+  image: [bodyscrub1],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000001,
+  bestseller: true
+},
+{
+  _id: "scrub002",
+  name: "Coconut Sugar Body Scrub",
+  description: "Gentle exfoliator with coconut oil and sugar crystals for glowing skin.",
+  price: 620,
+  image: [bodyscrub2],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000002,
+  bestseller: false
+},
+{
+  _id: "scrub003",
+  name: "Rose & Salt Detox Scrub",
+  description: "Detoxifying pink salt scrub infused with rose essence.",
+  price: 690,
+  image: [bodyscrub3],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000003,
+  bestseller: true
+},
+{
+  _id: "scrub004",
+  name: "Citrus Zest Body Polish",
+  description: "Refreshing citrus scrub that polishes away dull skin.",
+  price: 610,
+  image: [bodyscrub4],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000004,
+  bestseller: false
+},
+{
   _id: "nail001",
   name: "Glossy Red Nail Polish",
   description: "High-shine, chip-resistant nail polish in a classic red shade.",
@@ -312,56 +360,66 @@ export const products = [
   bestseller: false
 },
 {
-  _id: "scrub001",
-  name: "Coffee Exfoliating Scrub",
-  description: "Energizing scrub with coffee grounds to smooth and awaken your skin.",
-  price: 650,
-  image: [bodyscrub1],
+  _id: "body001",
+  name: "Hydrating Aloe Body Lotion",
+  description: "Moisturizing lotion with aloe vera that keeps your skin soft and hydrated all day.",
+  price: 550,
+  image: [bodylotion1],
   category: "Women",
   subCategory: "Body",
   sizes: [],
-  date: 1716236000001,
+  date: 1716235800001,
   bestseller: true
 },
 {
-  _id: "scrub002",
-  name: "Coconut Sugar Body Scrub",
-  description: "Gentle exfoliator with coconut oil and sugar crystals for glowing skin.",
+  _id: "body002",
+  name: "Cocoa Butter Glow Lotion",
+  description: "Rich cocoa butter formula that deeply nourishes and gives your skin a radiant glow.",
   price: 620,
-  image: [bodyscrub2],
+  image: [bodylotion2],
   category: "Women",
   subCategory: "Body",
   sizes: [],
-  date: 1716236000002,
+  date: 1716235800002,
   bestseller: false
 },
 {
-  _id: "scrub003",
-  name: "Rose & Salt Detox Scrub",
-  description: "Detoxifying pink salt scrub infused with rose essence.",
-  price: 690,
-  image: [bodyscrub3],
+  _id: "body003",
+  name: "Shea Soft Moisture Cream",
+  description: "Ultra-hydrating shea butter lotion ideal for dry and sensitive skin.",
+  price: 670,
+  image: [bodylotion3],
   category: "Women",
   subCategory: "Body",
   sizes: [],
-  date: 1716236000003,
+  date: 1716235800003,
   bestseller: true
 },
 {
-  _id: "scrub004",
-  name: "Citrus Zest Body Polish",
-  description: "Refreshing citrus scrub that polishes away dull skin.",
-  price: 610,
-  image: [bodyscrub4],
+  _id: "body004",
+  name: "Vanilla Infusion Lotion",
+  description: "Lightweight moisturizer with sweet vanilla scent and quick-absorbing formula.",
+  price: 540,
+  image: [bodylotion4],
   category: "Women",
   subCategory: "Body",
   sizes: [],
-  date: 1716236000004,
+  date: 1716235800004,
   bestseller: false
+},
+{
+  _id: "body005",
+  name: "Cucumber Mint Fresh Lotion",
+  description: "Cooling lotion with cucumber and mint extracts, ideal for post-sun use.",
+  price: 580,
+  image: [bodylotion5],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800005,
+  bestseller: true
 },
 
 
 ]
-
-
-
+ 
