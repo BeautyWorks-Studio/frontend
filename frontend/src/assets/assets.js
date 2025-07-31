@@ -17,6 +17,27 @@ import sunscreen4 from "./sunscreen4.jpeg"
 import sunscreen5 from "./sunscreen5.jpeg"
 
 
+
+
+// Body Lotion Images
+import bodylotion1 from "./bodylotion1.jpeg";
+import bodylotion2 from "./bodylotion2.jpeg";
+import bodylotion3 from "./bodylotion3.jpeg";
+import bodylotion4 from "./bodylotion4.jpeg";
+import bodylotion5 from "./bodylotion5.jpeg";
+
+// Nail Polish Images
+import nailpolish1 from "./nailpolish1.jpeg";
+import nailpolish2 from "./nailpolish2.jpeg";
+import nailpolish3 from "./nailpolish3.jpeg";
+import nailpolish4 from "./nailpolish4.jpeg";
+
+// Body Scrub Images
+import bodyscrub1 from "./bodyscrub1.jpeg";
+import bodyscrub2 from "./bodyscrub2.jpeg";
+import bodyscrub3 from "./bodyscrub3.jpeg";
+import bodyscrub4 from "./bodyscrub4.jpeg";
+
 import logo from './logo.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -241,7 +262,105 @@ export const products = [
     sizes: [],
     date: 1716235700015,
     bestseller: true
-  }
+  },
+  {
+  _id: "nail001",
+  name: "Glossy Red Nail Polish",
+  description: "High-shine, chip-resistant nail polish in a classic red shade.",
+  price: 250,
+  image: [nailpolish1],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900001,
+  bestseller: true
+},
+{
+  _id: "nail002",
+  name: "Nude Elegance Polish",
+  description: "Soft nude shade with a smooth matte finish for everyday elegance.",
+  price: 230,
+  image: [nailpolish2],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900002,
+  bestseller: false
+},
+{
+  _id: "nail003",
+  name: "Sky Blue Nail Enamel",
+  description: "Bright sky-blue nail polish that adds a playful pop to your style.",
+  price: 240,
+  image: [nailpolish3],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900003,
+  bestseller: true
+},
+{
+  _id: "nail004",
+  name: "Glitter Pink Nail Color",
+  description: "Shimmery pink polish ideal for special occasions and glam looks.",
+  price: 260,
+  image: [nailpolish4],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900004,
+  bestseller: false
+},
+{
+  _id: "scrub001",
+  name: "Coffee Exfoliating Scrub",
+  description: "Energizing scrub with coffee grounds to smooth and awaken your skin.",
+  price: 650,
+  image: [bodyscrub1],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000001,
+  bestseller: true
+},
+{
+  _id: "scrub002",
+  name: "Coconut Sugar Body Scrub",
+  description: "Gentle exfoliator with coconut oil and sugar crystals for glowing skin.",
+  price: 620,
+  image: [bodyscrub2],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000002,
+  bestseller: false
+},
+{
+  _id: "scrub003",
+  name: "Rose & Salt Detox Scrub",
+  description: "Detoxifying pink salt scrub infused with rose essence.",
+  price: 690,
+  image: [bodyscrub3],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000003,
+  bestseller: true
+},
+{
+  _id: "scrub004",
+  name: "Citrus Zest Body Polish",
+  description: "Refreshing citrus scrub that polishes away dull skin.",
+  price: 610,
+  image: [bodyscrub4],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000004,
+  bestseller: false
+},
+
+
 ]
 
 
