@@ -20,11 +20,11 @@ import sunscreen5 from "./sunscreen5.jpeg"
 
 
 // Body Lotion Images
-import bodylotion1 from "./bodylotion1.jpeg";
-import bodylotion2 from "./bodylotion2.jpeg";
-import bodylotion3 from "./bodylotion3.jpeg";
-import bodylotion4 from "./bodylotion4.jpeg";
-import bodylotion5 from "./bodylotion5.jpeg";
+import bodylotion1 from "./lotion1.jpeg";
+import bodylotion2 from "./lotion2.jpeg";
+import bodylotion3 from "./lotion3.jpeg";
+import bodylotion4 from "./lotion4.jpeg";
+import bodylotion5 from "./lotion5.jpeg";
 
 // Nail Polish Images
 import nailpolish1 from "./nailpolish1.jpeg";
