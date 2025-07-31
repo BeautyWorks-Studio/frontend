@@ -1,23 +1,23 @@
+// Lipstick Images
 import lipstick1 from "./lipstick1.jpeg"
 import lipstick2 from "./lipstick2.jpeg"
 import lipstick3 from "./lipstick3.jpeg"
 import lipstick4 from "./lipstick4.jpeg"
 import lipstick5 from "./lipstick5.jpeg"
 
+// Facemask Images
 import facemask1 from "./facemask1.jpeg"
 import facemask2 from "./facemask2.jpeg"
 import facemask3 from "./facemask3.jpeg"
 import facemask4 from "./facemask4.jpeg"
 import facemask5 from "./facemask5.jpeg"
 
+// Sunscreen Images
 import sunscreen1 from "./sunscreen1.jpeg"
 import sunscreen2 from "./sunscreen2.jpeg"
 import sunscreen3 from "./sunscreen3.jpeg"
 import sunscreen4 from "./sunscreen4.jpeg"
 import sunscreen5 from "./sunscreen5.jpeg"
-
-
-
 
 // Body Lotion Images
 import bodylotion1 from "./bodylotion1.jpeg";
@@ -38,6 +38,7 @@ import bodyscrub2 from "./bodyscrub2.jpeg";
 import bodyscrub3 from "./bodyscrub3.jpeg";
 import bodyscrub4 from "./bodyscrub4.jpeg";
 
+// UI and Brand Assets
 import logo from './logo.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -79,8 +80,6 @@ export const assets = {
 }
 
 export const products = [
-
-    
   {
     _id: "lip001",
     name: "Velvet Matte Lipstick",
@@ -141,8 +140,55 @@ export const products = [
     date: 1716235700005,
     bestseller: false
   },
-
-      {
+  {
+    _id: "nail001",
+    name: "Glossy Red Nail Polish",
+    description: "High-shine, chip-resistant nail polish in a classic red shade.",
+    price: 250,
+    image: [nailpolish1],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235900001,
+    bestseller: true
+  },
+  {
+    _id: "nail002",
+    name: "Nude Elegance Polish",
+    description: "Soft nude shade with a smooth matte finish for everyday elegance.",
+    price: 230,
+    image: [nailpolish2],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235900002,
+    bestseller: false
+  },
+  {
+    _id: "nail003",
+    name: "Sky Blue Nail Enamel",
+    description: "Bright sky-blue nail polish that adds a playful pop to your style.",
+    price: 240,
+    image: [nailpolish3],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235900003,
+    bestseller: true
+  },
+  {
+    _id: "nail004",
+    name: "Glitter Pink Nail Color",
+    description: "Shimmery pink polish ideal for special occasions and glam looks.",
+    price: 260,
+    image: [nailpolish4],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235900004,
+    bestseller: false
+  },
+  {
     _id: "mask001",
     name: "Hydrating Sheet Mask",
     description: "Enriched with hyaluronic acid to deeply hydrate and rejuvenate dry skin.",
@@ -202,8 +248,7 @@ export const products = [
     date: 1716235700010,
     bestseller: false
   },
-
-    {
+  {
     _id: "sun001",
     name: "SPF 50+ Mineral Sunscreen",
     description: "Broad-spectrum mineral sunscreen suitable for all skin types. Non-greasy and water-resistant.",
@@ -264,6 +309,66 @@ export const products = [
     bestseller: true
   },
   {
+    _id: "body001",
+    name: "Hydrating Aloe Body Lotion",
+    description: "Moisturizing lotion with aloe vera that keeps your skin soft and hydrated all day.",
+    price: 550,
+    image: [bodylotion1],
+    category: "Women",
+    subCategory: "Body",
+    sizes: [],
+    date: 1716235800001,
+    bestseller: true
+  },
+  {
+    _id: "body002",
+    name: "Cocoa Butter Glow Lotion",
+    description: "Rich cocoa butter formula that deeply nourishes and gives your skin a radiant glow.",
+    price: 620,
+    image: [bodylotion2],
+    category: "Women",
+    subCategory: "Body",
+    sizes: [],
+    date: 1716235800002,
+    bestseller: false
+  },
+  {
+    _id: "body003",
+    name: "Shea Soft Moisture Cream",
+    description: "Ultra-hydrating shea butter lotion ideal for dry and sensitive skin.",
+    price: 670,
+    image: [bodylotion3],
+    category: "Women",
+    subCategory: "Body",
+    sizes: [],
+    date: 1716235800003,
+    bestseller: true
+  },
+  {
+    _id: "body004",
+    name: "Vanilla Infusion Lotion",
+    description: "Lightweight moisturizer with sweet vanilla scent and quick-absorbing formula.",
+    price: 540,
+    image: [bodylotion4],
+    category: "Women",
+    subCategory: "Body",
+    sizes: [],
+    date: 1716235800004,
+    bestseller: false
+  },
+  {
+    _id: "body005",
+    name: "Cucumber Mint Fresh Lotion",
+    description: "Cooling lotion with cucumber and mint extracts, ideal for post-sun use.",
+    price: 580,
+    image: [bodylotion5],
+    category: "Women",
+    subCategory: "Body",
+    sizes: [],
+    date: 1716235800005,
+    bestseller: true
+  },
+  {
   _id: "scrub001",
   name: "Coffee Exfoliating Scrub",
   description: "Energizing scrub with coffee grounds to smooth and awaken your skin.",
@@ -311,115 +416,5 @@ export const products = [
   date: 1716236000004,
   bestseller: false
 },
-{
-  _id: "nail001",
-  name: "Glossy Red Nail Polish",
-  description: "High-shine, chip-resistant nail polish in a classic red shade.",
-  price: 250,
-  image: [nailpolish1],
-  category: "Women",
-  subCategory: "Makeup",
-  sizes: [],
-  date: 1716235900001,
-  bestseller: true
-},
-{
-  _id: "nail002",
-  name: "Nude Elegance Polish",
-  description: "Soft nude shade with a smooth matte finish for everyday elegance.",
-  price: 230,
-  image: [nailpolish2],
-  category: "Women",
-  subCategory: "Makeup",
-  sizes: [],
-  date: 1716235900002,
-  bestseller: false
-},
-{
-  _id: "nail003",
-  name: "Sky Blue Nail Enamel",
-  description: "Bright sky-blue nail polish that adds a playful pop to your style.",
-  price: 240,
-  image: [nailpolish3],
-  category: "Women",
-  subCategory: "Makeup",
-  sizes: [],
-  date: 1716235900003,
-  bestseller: true
-},
-{
-  _id: "nail004",
-  name: "Glitter Pink Nail Color",
-  description: "Shimmery pink polish ideal for special occasions and glam looks.",
-  price: 260,
-  image: [nailpolish4],
-  category: "Women",
-  subCategory: "Makeup",
-  sizes: [],
-  date: 1716235900004,
-  bestseller: false
-},
-{
-  _id: "body001",
-  name: "Hydrating Aloe Body Lotion",
-  description: "Moisturizing lotion with aloe vera that keeps your skin soft and hydrated all day.",
-  price: 550,
-  image: [bodylotion1],
-  category: "Women",
-  subCategory: "Body",
-  sizes: [],
-  date: 1716235800001,
-  bestseller: true
-},
-{
-  _id: "body002",
-  name: "Cocoa Butter Glow Lotion",
-  description: "Rich cocoa butter formula that deeply nourishes and gives your skin a radiant glow.",
-  price: 620,
-  image: [bodylotion2],
-  category: "Women",
-  subCategory: "Body",
-  sizes: [],
-  date: 1716235800002,
-  bestseller: false
-},
-{
-  _id: "body003",
-  name: "Shea Soft Moisture Cream",
-  description: "Ultra-hydrating shea butter lotion ideal for dry and sensitive skin.",
-  price: 670,
-  image: [bodylotion3],
-  category: "Women",
-  subCategory: "Body",
-  sizes: [],
-  date: 1716235800003,
-  bestseller: true
-},
-{
-  _id: "body004",
-  name: "Vanilla Infusion Lotion",
-  description: "Lightweight moisturizer with sweet vanilla scent and quick-absorbing formula.",
-  price: 540,
-  image: [bodylotion4],
-  category: "Women",
-  subCategory: "Body",
-  sizes: [],
-  date: 1716235800004,
-  bestseller: false
-},
-{
-  _id: "body005",
-  name: "Cucumber Mint Fresh Lotion",
-  description: "Cooling lotion with cucumber and mint extracts, ideal for post-sun use.",
-  price: 580,
-  image: [bodylotion5],
-  category: "Women",
-  subCategory: "Body",
-  sizes: [],
-  date: 1716235800005,
-  bestseller: true
-},
-
-
 ]
  
