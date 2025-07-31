@@ -1,59 +1,42 @@
-import p_img1 from './p_img1.png'
-import p_img2_1 from './p_img2_1.png'
-import p_img2_2 from './p_img2_2.png'
-import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
-import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
-import p_img13 from './p_img13.png'
-import p_img14 from './p_img14.png'
-import p_img15 from './p_img15.png'
-import p_img16 from './p_img16.png'
-import p_img17 from './p_img17.png'
-import p_img18 from './p_img18.png'
-import p_img19 from './p_img19.png'
-import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
-import p_img22 from './p_img22.png'
-import p_img23 from './p_img23.png'
-import p_img24 from './p_img24.png'
-import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
-import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
-import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
-import p_img39 from './p_img39.png'
-import p_img40 from './p_img40.png'
-import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
-import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
-import p_img45 from './p_img45.png'
-import p_img46 from './p_img46.png'
-import p_img47 from './p_img47.png'
-import p_img48 from './p_img48.png'
-import p_img49 from './p_img49.png'
-import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
-import p_img52 from './p_img52.png'
+import lipstick1 from "./lipstick1.jpeg"
+import lipstick2 from "./lipstick2.jpeg"
+import lipstick3 from "./lipstick3.jpeg"
+import lipstick4 from "./lipstick4.jpeg"
+import lipstick5 from "./lipstick5.jpeg"
 
+import facemask1 from "./facemask1.jpeg"
+import facemask2 from "./facemask2.jpeg"
+import facemask3 from "./facemask3.jpeg"
+import facemask4 from "./facemask4.jpeg"
+import facemask5 from "./facemask5.jpeg"
+
+import sunscreen1 from "./sunscreen1.jpeg"
+import sunscreen2 from "./sunscreen2.jpeg"
+import sunscreen3 from "./sunscreen3.jpeg"
+import sunscreen4 from "./sunscreen4.jpeg"
+import sunscreen5 from "./sunscreen5.jpeg"
+
+
+
+
+// Body Lotion Images
+import bodylotion1 from "./bodylotion1.jpeg";
+import bodylotion2 from "./bodylotion2.jpeg";
+import bodylotion3 from "./bodylotion3.jpeg";
+import bodylotion4 from "./bodylotion4.jpeg";
+import bodylotion5 from "./bodylotion5.jpeg";
+
+// Nail Polish Images
+import nailpolish1 from "./nailpolish1.jpeg";
+import nailpolish2 from "./nailpolish2.jpeg";
+import nailpolish3 from "./nailpolish3.jpeg";
+import nailpolish4 from "./nailpolish4.jpeg";
+
+// Body Scrub Images
+import bodyscrub1 from "./bodyscrub1.jpeg";
+import bodyscrub2 from "./bodyscrub2.jpeg";
+import bodyscrub3 from "./bodyscrub3.jpeg";
+import bodyscrub4 from "./bodyscrub4.jpeg";
 
 import logo from './logo.png'
 import hero_img from './hero_img.png'
@@ -96,628 +79,347 @@ export const assets = {
 }
 
 export const products = [
+
+    
+  {
+    _id: "lip001",
+    name: "Velvet Matte Lipstick",
+    description: "A rich matte lipstick that glides on effortlessly, delivering long-lasting color and hydration.",
+    price: 650,
+    image: [lipstick1],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235700001,
+    bestseller: true
+  },
+  {
+    _id: "lip002",
+    name: "Moisture Luxe Lipstick",
+    description: "Infused with shea butter and vitamin E, this lipstick keeps lips soft while delivering bold color.",
+    price: 720,
+    image: [lipstick2],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235700002,
+    bestseller: false
+  },
+  {
+    _id: "lip003",
+    name: "Glossy Shine Lipstick",
+    description: "High-shine lipstick with a smooth finish. Perfect for a radiant everyday look.",
+    price: 580,
+    image: [lipstick3],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235700003,
+    bestseller: false
+  },
+  {
+    _id: "lip004",
+    name: "Ultra Stay Liquid Lipstick",
+    description: "Waterproof and smudge-proof liquid lipstick that lasts up to 12 hours.",
+    price: 810,
+    image: [lipstick4],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235700004,
+    bestseller: true
+  },
+  {
+    _id: "lip005",
+    name: "Nude Elegance Lipstick",
+    description: "A soft nude tone for a subtle and natural lip color. Ideal for daily wear.",
+    price: 600,
+    image: [lipstick5],
+    category: "Women",
+    subCategory: "Makeup",
+    sizes: [],
+    date: 1716235700005,
+    bestseller: false
+  },
+
+      {
+    _id: "mask001",
+    name: "Hydrating Sheet Mask",
+    description: "Enriched with hyaluronic acid to deeply hydrate and rejuvenate dry skin.",
+    price: 250,
+    image: [facemask1],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700006,
+    bestseller: true
+  },
+  {
+    _id: "mask002",
+    name: "Detox Clay Mask",
+    description: "Deep-cleansing clay mask formulated with charcoal to absorb excess oil and unclog pores.",
+    price: 340,
+    image: [facemask2],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700007,
+    bestseller: false
+  },
+  {
+    _id: "mask003",
+    name: "Brightening Vitamin C Mask",
+    description: "Illuminates dull skin and reduces pigmentation for a glowing complexion.",
+    price: 400,
+    image: [facemask3],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700008,
+    bestseller: true
+  },
+  {
+    _id: "mask004",
+    name: "Soothing Aloe Mask",
+    description: "Soothes sensitive or sunburned skin with the calming properties of aloe vera.",
+    price: 280,
+    image: [facemask4],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700009,
+    bestseller: false
+  },
+  {
+    _id: "mask005",
+    name: "Collagen Boost Mask",
+    description: "Boosts skin elasticity and firmness with marine collagen infusion.",
+    price: 490,
+    image: [facemask5],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700010,
+    bestseller: false
+  },
+
     {
-        _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716234545448,
-        bestseller: true
-    },
-    {
-        _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
-        date: 1716621345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716623423448,
-        bestseller: true
-    },
-    {
-        _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716621542448,
-        bestseller: false
-    },
-    {
-        _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img10],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716622235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 120,
-        image: [p_img11],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716623345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img12],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716624445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img13],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716625545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img14],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716626645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaao",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img15],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716627745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaap",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img16],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716628845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaq",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img17],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716629945448,
-        bestseller: false
-    },
-    {
-        _id: "aaaar",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img18],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716631045448,
-        bestseller: false
-    },
-    {
-        _id: "aaaas",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img19],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716632145448,
-        bestseller: false
-    },
-    {
-        _id: "aaaat",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img20],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716633245448,
-        bestseller: false
-    },
-    {
-        _id: "aaaau",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img21],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaav",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img22],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716635445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaw",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img23],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716636545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaax",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img24],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716637645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaay",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img25],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716638745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaz",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img26],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716639845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaba",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img27],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716640945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabb",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img28],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716642045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabc",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img29],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716643145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabd",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img30],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716644245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabe",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img31],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716645345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabf",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img32],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716646445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabg",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img33],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716647545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img34],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716648645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img35],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716649745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img36],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716650845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716651945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img38],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716653045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabm",
-        name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img39],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716654145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img40],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716655245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img41],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716656345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img42],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716657445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img43],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716658545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img44],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716659645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img45],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716660745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img46],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716661845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img47],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716662945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 330,
-        image: [p_img48],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716664045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img49],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716665145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 340,
-        image: [p_img50],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
-    },
-    {
-        _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716667345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabz",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 350,
-        image: [p_img52],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716668445448,
-        bestseller: false
-    }
+    _id: "sun001",
+    name: "SPF 50+ Mineral Sunscreen",
+    description: "Broad-spectrum mineral sunscreen suitable for all skin types. Non-greasy and water-resistant.",
+    price: 990,
+    image: [sunscreen1],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700011,
+    bestseller: true
+  },
+  {
+    _id: "sun002",
+    name: "Daily Glow Sunscreen SPF 30",
+    description: "Lightweight daily sunscreen with a subtle glow finish and no white cast.",
+    price: 890,
+    image: [sunscreen2],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700012,
+    bestseller: false
+  },
+  {
+    _id: "sun003",
+    name: "Ultra Light SPF 40 Gel",
+    description: "A refreshing gel formula that protects and hydrates oily skin without clogging pores.",
+    price: 850,
+    image: [sunscreen3],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700013,
+    bestseller: true
+  },
+  {
+    _id: "sun004",
+    name: "Tinted Sunscreen SPF 45",
+    description: "Combines sun protection and a light tint to even out skin tone naturally.",
+    price: 930,
+    image: [sunscreen4],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700014,
+    bestseller: false
+  },
+  {
+    _id: "sun005",
+    name: "Anti-Pollution SPF 50 Spray",
+    description: "Protects against UV rays and pollution damage with easy spray-on application.",
+    price: 1050,
+    image: [sunscreen5],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700015,
+    bestseller: true
+  },
+  {
+  _id: "scrub001",
+  name: "Coffee Exfoliating Scrub",
+  description: "Energizing scrub with coffee grounds to smooth and awaken your skin.",
+  price: 650,
+  image: [bodyscrub1],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000001,
+  bestseller: true
+},
+{
+  _id: "scrub002",
+  name: "Coconut Sugar Body Scrub",
+  description: "Gentle exfoliator with coconut oil and sugar crystals for glowing skin.",
+  price: 620,
+  image: [bodyscrub2],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000002,
+  bestseller: false
+},
+{
+  _id: "scrub003",
+  name: "Rose & Salt Detox Scrub",
+  description: "Detoxifying pink salt scrub infused with rose essence.",
+  price: 690,
+  image: [bodyscrub3],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000003,
+  bestseller: true
+},
+{
+  _id: "scrub004",
+  name: "Citrus Zest Body Polish",
+  description: "Refreshing citrus scrub that polishes away dull skin.",
+  price: 610,
+  image: [bodyscrub4],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716236000004,
+  bestseller: false
+},
+{
+  _id: "nail001",
+  name: "Glossy Red Nail Polish",
+  description: "High-shine, chip-resistant nail polish in a classic red shade.",
+  price: 250,
+  image: [nailpolish1],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900001,
+  bestseller: true
+},
+{
+  _id: "nail002",
+  name: "Nude Elegance Polish",
+  description: "Soft nude shade with a smooth matte finish for everyday elegance.",
+  price: 230,
+  image: [nailpolish2],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900002,
+  bestseller: false
+},
+{
+  _id: "nail003",
+  name: "Sky Blue Nail Enamel",
+  description: "Bright sky-blue nail polish that adds a playful pop to your style.",
+  price: 240,
+  image: [nailpolish3],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900003,
+  bestseller: true
+},
+{
+  _id: "nail004",
+  name: "Glitter Pink Nail Color",
+  description: "Shimmery pink polish ideal for special occasions and glam looks.",
+  price: 260,
+  image: [nailpolish4],
+  category: "Women",
+  subCategory: "Makeup",
+  sizes: [],
+  date: 1716235900004,
+  bestseller: false
+},
+{
+  _id: "body001",
+  name: "Hydrating Aloe Body Lotion",
+  description: "Moisturizing lotion with aloe vera that keeps your skin soft and hydrated all day.",
+  price: 550,
+  image: [bodylotion1],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800001,
+  bestseller: true
+},
+{
+  _id: "body002",
+  name: "Cocoa Butter Glow Lotion",
+  description: "Rich cocoa butter formula that deeply nourishes and gives your skin a radiant glow.",
+  price: 620,
+  image: [bodylotion2],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800002,
+  bestseller: false
+},
+{
+  _id: "body003",
+  name: "Shea Soft Moisture Cream",
+  description: "Ultra-hydrating shea butter lotion ideal for dry and sensitive skin.",
+  price: 670,
+  image: [bodylotion3],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800003,
+  bestseller: true
+},
+{
+  _id: "body004",
+  name: "Vanilla Infusion Lotion",
+  description: "Lightweight moisturizer with sweet vanilla scent and quick-absorbing formula.",
+  price: 540,
+  image: [bodylotion4],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800004,
+  bestseller: false
+},
+{
+  _id: "body005",
+  name: "Cucumber Mint Fresh Lotion",
+  description: "Cooling lotion with cucumber and mint extracts, ideal for post-sun use.",
+  price: 580,
+  image: [bodylotion5],
+  category: "Women",
+  subCategory: "Body",
+  sizes: [],
+  date: 1716235800005,
+  bestseller: true
+},
+
 
 ]
+ 
