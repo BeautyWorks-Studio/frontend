@@ -121,6 +121,66 @@ export const products = [
     bestseller: false
   },
 
-    
+      {
+    _id: "mask001",
+    name: "Hydrating Sheet Mask",
+    description: "Enriched with hyaluronic acid to deeply hydrate and rejuvenate dry skin.",
+    price: 250,
+    image: [facemask1],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700006,
+    bestseller: true
+  },
+  {
+    _id: "mask002",
+    name: "Detox Clay Mask",
+    description: "Deep-cleansing clay mask formulated with charcoal to absorb excess oil and unclog pores.",
+    price: 340,
+    image: [facemask2],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700007,
+    bestseller: false
+  },
+  {
+    _id: "mask003",
+    name: "Brightening Vitamin C Mask",
+    description: "Illuminates dull skin and reduces pigmentation for a glowing complexion.",
+    price: 400,
+    image: [facemask3],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700008,
+    bestseller: true
+  },
+  {
+    _id: "mask004",
+    name: "Soothing Aloe Mask",
+    description: "Soothes sensitive or sunburned skin with the calming properties of aloe vera.",
+    price: 280,
+    image: [facemask4],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700009,
+    bestseller: false
+  },
+  {
+    _id: "mask005",
+    name: "Collagen Boost Mask",
+    description: "Boosts skin elasticity and firmness with marine collagen infusion.",
+    price: 490,
+    image: [facemask5],
+    category: "Women",
+    subCategory: "Skincare",
+    sizes: [],
+    date: 1716235700010,
+    bestseller: false
+  },
+
 
 ]
